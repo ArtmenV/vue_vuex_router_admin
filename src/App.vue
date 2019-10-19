@@ -25,4 +25,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
+ul {
+  padding-inline-start: 0px;
+}
 </style>
