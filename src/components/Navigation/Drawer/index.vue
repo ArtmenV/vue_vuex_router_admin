@@ -4,7 +4,7 @@
       <div class="drawer__admin" v-if="isLogin">
         <div class="drawer__admin--photo"></div>
         <div class="drawer__admin--personal">
-          <h6 class="drawer__name--admin">Hello, Kate Zimalab</h6>
+          <span class="drawer__name--admin">Hello, Kate Zimalab</span>
         </div>
         <div>
           <div>
@@ -142,7 +142,7 @@ export default {
       width: 100%;
       height: 2.5rem;
       color: rgb(240, 234, 234);
-      font-weight: 500;
+      font-weight: 300;
       padding-left: 17px;
       border-bottom: 1px solid rgba(240, 234, 234, 0.2);
       transition: all 0.1s ease-in-out;
